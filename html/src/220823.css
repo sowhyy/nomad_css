@@ -1,0 +1,98 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  background-color:#F6F6F6;
+  padding:50px 25px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 770px;
+  width: 100%;
+  margin:0 auto;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  position: relative;
+  top : 90px;
+  padding: 50px;
+  width: 65%;
+  height: 100%;
+  
+  outline: 2px solid #fff;
+  background-color: #f5f5f5;
+  box-shadow: 10px 10px 50px 10px rgba(0,0,0,.3);
+  margin-bottom: 160px;
+}
+
+img {
+  position: absolute;
+  width: 130px;
+  z-index: 1;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  
+  border-bottom: 2px solid #000;
+  font-weight: bolder;
+}
+
+header h1 {
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+header h2 {
+  font-size: 50px;
+}
+
+article {
+  position: relative;
+  font-variant: small-caps;
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+article .right {
+  position: absolute;
+  left: 20%;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.blue {
+  background-color: lightskyblue;
+}
+
+.gray {
+  background-color: lightslategrey;
+}
+
+.green {
+  background-color: mediumseagreen;
+}
